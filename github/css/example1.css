@@ -1,0 +1,47 @@
+
+h1,p{
+  font-size: 1px;
+} */
+.aho{
+  font-size: 1px;
+
+}
+span{
+  background-color: blue;
+}
+/* .unchi{
+  color:red;
+} */
+.black,.blue,.white{
+  color:blue;
+}
+p > a{
+  font-size: large;
+}
+p ~ h1
+{
+  color: skyblue;
+}
+[href]{
+  color: skyblue;
+}
+:link{
+  font-size: small;
+}
+:visited
+{
+  color:green;
+}
+a:hover{
+  text-decoration: none;
+}
+:focus{
+  color:yellow;
+}
+#ii{
+  border-bottom: 1px solid;
+  color:green;
+}
+li :only-child{
+  font-size: large;
+}
