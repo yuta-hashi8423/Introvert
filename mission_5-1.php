@@ -1,13 +1,13 @@
 <?php
-  // ・データベース名：tb221122db
-	// ・ユーザー名：tb-221122
-	// ・パスワード：4Ah664Tzgh
+  // ・データベース名：**********
+	// ・ユーザー名：*********
+	// ・パスワード：**********
 
   
 	/*DB接続設定*/
-  $dsn = 'mysql:dbname=tb221122db;host=localhost';
-	$user = 'tb-221122';
-	$password = '4Ah664Tzgh';
+  $dsn = 'mysql:dbname=**********;host=localhost';
+	$user = '**********';
+	$password = '**********';
   $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));//PDOクラスのインスタンス作成
   
   
